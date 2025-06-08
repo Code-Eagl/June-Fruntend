@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html body {
+  height: 100%;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 1rem;
+}
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+header p {
+  font-size: 1.1rem;
+  color: #666;
+}
+.monmonth-section h1 {
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+  color: #34495e;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.card-box {
+  position: relative;
+  padding: 5px;
+  border-radius: 16px;
+  z-index: 0;
+  overflow: hidden;
+  background-color: aqua;
+}
+.project-card {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgb(217, 177, 104);
+  border-radius: 16px;
+  box-shadow: 0 4px 1px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+.card-box::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+
+  background: conic-gredient(from 0deg, green yellow orange red darkgreen blue);
+  animation: rotate 6s linear infinite;
+  z-index: -2;
+}
+.card-box::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  background: rgb(232, 167, 167);
+  border-radius: 12px;
+  z-index: -1;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.card-box:hover {
+  transform: translate(-5px);
+}
+.title {
+  display: flex;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0.8rem auto 0.3rem;
+  color: #2c3e50;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.title :hover {
+  color: #0078ff;
+  text-decoration: underline solid 1rem;
+}
