@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+}
+.image_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.image_container img {
+  height: 300px;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+.image_container h2 {
+  color: black;
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid blue;
+}
