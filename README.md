@@ -1,19 +1,18 @@
-Here’s a polished, reusable structure for your **README.md** that showcases your frontend projects and live demos via GitHub Pages. Customize each section to reflect your personal style and project details:
+## 🏠 June practice wor
 
----
+### **Welcome here**
 
-## 🏠 Project Portfolio
-
-### Hi, I’m **\[Your Name]**
-
-I build clean, performant, and accessible frontend web applications. This repo showcases my personal projects — all live and hosted via GitHub Pages, ready for you to explore.
+Here is a collection of practice projects completed in June. This project includes the concepts i learned in this month
+[Click here](https://code-eagl.github.io/June-Fruntend/) t se the work
 
 ---
 
 ## 📂 Projects
 
-| Project                     | Description                                                                                  | Tech Stack                                                                 | Source                                               |
-| --------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------- | ------------------------------------------------------- | ---------------------------------------------------- |
+| Project Name       | Description                                       | Code |
+|--------------------|---------------------------------------------------|------|
+| **Movie Zone**     | used filter for array manipulation.              | [click here](https://github.com/Code-Eagl/June-Fruntend/tree/0614aed3e93990087cc0ffb40689881417139a0f/p1) |
+| **image changer**  | Used mouseover and mouseleave event              | [click her] (https://github.com/Code-Eagl/June-Fruntend/tree/0614aed3e93990087cc0ffb40689881417139a0f/p2) |
 
 ---
 
