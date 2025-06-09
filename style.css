@@ -7,18 +7,18 @@ html body {
   height: 100%;
   width: 100%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #100f0f;
+  color: #f9f4f4;
   line-height: 1.6;
   padding: 1rem;
 }
 header h1 {
   font-size: 2.5rem;
-  color: #2c3e50;
+  color: #f7f8fa;
 }
 header p {
   font-size: 1.1rem;
-  color: #666;
+  color: #f9f6f6;
 }
 .month-section {
   margin-bottom: 3rem;
@@ -26,38 +26,50 @@ header p {
 .month-section h2 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  color: #34495e;
+  color: #f5f7f8;
   border-bottom: 2px solid #cccccc;
   padding-bottom: 0.5rem;
 }
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1.5rem;
+  gap: 0.5rem;
 }
 
 .projet-card {
-  background-color: rgb(236, 223, 197);
+  width: 220px;
+  height: 300px;
+  margin: 0 10px;
   border-radius: 12px;
   box-shadow: 0 4px 1px rgba(0, 0, 0, 0.08);
   overflow: hidden;
   transition: transform 0.2s ease;
   align-items: center;
   justify-content: center;
+  transition: 0.7s ease;
+  border: 1px solid blue;
 }
 .projet-card :hover {
-  transform: translate(-5px);
+  transform: scale(1.1) translateZ(50px);
+}
+img {
+  display: block;
+  width: 140px;
+  height: 230px;
+  border-radius: 10px;
+  border: 1.5px solid yellow;
 }
 .projet-card img {
   width: 100%;
   height: 180px;
-  object-fit: cover;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1.5px solid #eee;
+  transition: transform 0.7s ease;
+  transform: translateZ(0);
 }
 .title {
   font-size: 1.2rem;
   margin: 0.8rem;
-  color: #2c3e50;
+  color: #f7f8f9;
   display: block;
   text-align: center;
   font-weight: bold;
@@ -68,9 +80,14 @@ header p {
 .projet-card p {
   margin: 0 0.8rem 1rem;
   font-size: 1.2rem;
-  color: #555;
+  color: #f5f2f2;
 }
 .projet-card p {
   font-weight: bold;
   font-size: 0.9rem;
+}
+.projet-card h5 {
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding-left: 20px;
 }
