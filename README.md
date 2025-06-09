@@ -1,4 +1,4 @@
-## 🏠 June practice wor
+## 🏠 June practice work
 
 ### **Welcome here**
 
@@ -22,12 +22,6 @@ Here is a collection of practice projects completed in June. This project includ
 * **Frameworks:** React / Vue / Svelte (adjust per project)
 * **Tooling:** Webpack / Vite, ESLint, Prettier
 * **Deployment:** GitHub Pages
-
----
-
-## 📈 Stats & Insights
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=your-username\&show_icons=true)
 
 ---
 
