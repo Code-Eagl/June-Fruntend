@@ -12,7 +12,7 @@ I build clean, performant, and accessible frontend web applications. This repo s
 
 ## 📂 Projects
 
-| Project                     | Description                                                                                  | Tech Stack                       | Live Demo                                               | Source                                               |
+| Project                     | Description                                                                                  | Tech Stack                                                                 | Source                                               |
 | --------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------- | ------------------------------------------------------- | ---------------------------------------------------- |
 
 ---
