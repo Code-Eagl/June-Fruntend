@@ -1,3 +1,5 @@
+//fetching data with api
+
 let food = document.querySelector(".food");
 let indian = document.querySelector("#indian");
 let canadian = document.querySelector("#canadian");

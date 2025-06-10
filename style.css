@@ -12,6 +12,12 @@ html body {
   line-height: 1.6;
   padding: 1rem;
 }
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 header h1 {
   font-size: 2.5rem;
   color: #f7f8fa;
@@ -19,6 +25,7 @@ header h1 {
 header p {
   font-size: 1.1rem;
   color: #f9f6f6;
+  padding: 0.2rem;
 }
 .month-section {
   margin-bottom: 3rem;
@@ -37,8 +44,8 @@ header p {
 }
 
 .projet-card {
-  width: 220px;
-  height: 300px;
+  width: 200px;
+  height: 220px;
   margin: 0 10px;
   border-radius: 12px;
   box-shadow: 0 4px 1px rgba(0, 0, 0, 0.08);
@@ -47,21 +54,23 @@ header p {
   align-items: center;
   justify-content: center;
   transition: 0.7s ease;
-  border: 1px solid blue;
+  border: 1.5px solid rgba(224, 252, 84, 0.676);
 }
 .projet-card :hover {
   transform: scale(1.1) translateZ(50px);
 }
 img {
   display: block;
+  margin-left: 10px;
+  margin-top: 5px;
   width: 140px;
-  height: 230px;
+  height: 200px;
   border-radius: 10px;
   border: 1.5px solid yellow;
 }
 .projet-card img {
-  width: 100%;
-  height: 180px;
+  width: 90%;
+  height: 90px;
   border-bottom: 1.5px solid #eee;
   transition: transform 0.7s ease;
   transform: translateZ(0);
