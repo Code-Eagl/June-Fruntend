@@ -1,0 +1,51 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+button {
+  font-weight: bold !important;
+}
+input {
+  width: 20rem;
+  background-color: rgba(220, 238, 18, 0.528);
+  border: none;
+  color: white;
+  padding: 0.3rem;
+  margin: 0.9rem;
+  border-radius: 10px;
+}
+input:focus {
+  outline: none;
+}
+.imgs {
+  width: 10rem;
+  border-radius: 10px;
+  border: 2px solid blue;
+}
+.food {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem;
+}
+/*.imgcontainer {
+  max-width: 15rem;
+  text-align: center;
+  border: 1px solid yellow;
+}*/
+
+.imgcontainer {
+  width: 15rem; /* Changed from max-width to fixed width */
+  height: 16rem; /* Set a fixed height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid rgb(210, 210, 8);
+}
+
+.title {
+  margin: 10px;
+}
